@@ -1,0 +1,466 @@
+/* ======================
+       header part starts
+========================*/
+a{
+    text-decoration: none;
+}
+header{
+    background: #000;
+    padding: 15px 0px;
+    border-bottom: 5px solid #FFB800;
+}
+
+header a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif ;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    margin-right: 27px;
+}
+
+header .email{
+    border-right: 1px solid #5C6A92;
+    padding-right: 20px;
+
+}
+
+header a i{
+    margin-right: 5px;
+}
+
+header a:hover{
+    color:#fff;
+}
+
+header .icon{
+    text-align: right;
+}
+
+header .icon i{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 19px;
+}
+/* ======================
+    header part ends
+========================*/
+
+/* ======================
+    navbar part starts
+========================*/
+nav{
+    background: #F40404;
+    padding: 30px 0px !important;
+}
+
+nav ul li a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    margin-left: 47px;
+    margin-top: 3px;
+}
+
+nav ul li .button{
+    padding: 13px 31px;
+    width: 142px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-top: 0px;
+}
+/* ======================
+    navbar part ends
+========================*/
+
+/* ======================
+    banner part starts
+========================*/
+#banner-part .bgimg{
+    background: url(../images/banner.png) no-repeat center; 
+    background-size: cover;
+}
+
+#banner-part .bgimg .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    padding: 257px 0px;
+}
+
+#banner-part .bgimg .overlay h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    width: 842px;
+    color: #fff;
+}
+
+#banner-part .bgimg .overlay a{
+    display: inline-block;
+    padding: 13px 40px;
+    background: #F40404;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 31px;
+}
+
+#banner-part button{
+    opacity: 1;
+}
+
+#banner-part button i{
+    font-size: 60px;
+    color: #fff;
+}
+/* ======================
+    banner part ends
+========================*/
+
+/* ======================
+    supplier part starts
+========================*/
+#supplier-part{
+    margin-top: 78px;
+}
+
+#supplier-part .item2{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#supplier-part .item h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+#supplier-part .item2 p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 651px;
+}
+#supplier-part .imgbox{
+    display: flex;
+    justify-content: space-between;
+}
+#supplier-part .img{
+    margin-top: 100px;
+    width: 24%;
+}
+#supplier-part .img img{
+    width: 100%;
+}
+/* ======================
+    supplier part ends
+========================*/
+
+/* ======================
+    service part starts
+========================*/
+#service-part{
+    margin-top: 28px;
+}
+#service-part .title{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+#service-part .title .text{
+    margin-right: 149px;
+}
+
+
+#service-part .title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+#service-part .title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 405px;
+}
+#service-part .item{
+    background: url(../images/service_img-one.png) no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+#service-part .item .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    display: flex;
+    align-items: center;
+    padding: 147px;
+}
+#service-part .item .overlay .details{
+    margin-left: 116px;
+}
+
+#service-part .item .overlay h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#service-part .item .overlay a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 13px 30px;
+    background: #F40404;
+    margin-top: 19px;
+}
+/* ======================
+    service part ends
+========================*/
+
+/* ======================
+    company part starts
+========================*/
+#company-part{
+    background: #F0F0F0;
+    padding: 136px 0;
+}
+
+#company-part .left{
+    padding: 100px;
+    background: #F40404;
+}
+#company-part .left{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#company-part .img{
+    background: url(../images/company_img.png);
+    background-size: cover;
+    padding: 130px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#company-part .img a{
+    padding: 13px 30px;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background: #fff;
+    color: #F40404;
+}
+/* ======================
+    company part ends
+========================*/
+/* ============================
+    bottom contact part starts
+=============================*/
+#bottom-contact{
+    background: #F40404;
+}
+
+#bottom-contact h2{
+    color: #fff;
+    padding: 46px 0;
+
+}
+
+#bottom-contact .row .button{
+    padding: 13px 0px;
+    width: 142px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* ============================
+    bottom contact part ends
+=============================*/
+
+/* ============================
+    partner start
+=============================*/
+#partner-part{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 162px;
+}
+
+#partner-part{
+   padding: 120px 0;
+}
+
+
+
+/* ============================
+    partner ends
+=============================*/
+
+
+
+
+/* ============================
+    limitless part starts
+=============================*/
+#limitless-part{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 162px;
+}
+
+#limitless-part .item{
+    background: url(../images/back_img_one.png) no-repeat center;
+    background-size: cover;
+    height: 401px;
+    margin: 20px;
+    
+}
+#limitless-part .item .overlay{
+    height: 100%;
+    background: rgb(0, 0, 0, .6);
+}
+#limitless-part .item .overlay .details{
+    margin-left: 45px;
+
+}
+
+#limitless-part .item .overlay h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 72px 8px;
+    line-height: 1.6;
+}
+#limitless-part .item .overlay a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    padding: 11px 23px;
+    background: rgb(255, 255, 255, .5);
+}
+
+#limitless-part .bottom-text{
+    text-align: right;
+    font-size: 20px;
+    font-weight: 600;
+}
+#limitless-part .bottom-text a{
+    color: #000 !important;
+}
+#limitless-part .bottom-text a i{
+    padding: 10px;
+    color: #000 !important;
+}
+
+/* ============================
+    limitless part ends
+=============================*/
+
+/* ============================
+    bottomcontact part starts
+=============================*/
+
+#bottom-part{
+    background: #F40404;
+    padding: 30px 0px !important;
+    border-bottom: 5px solid #FFB800;
+}
+#bottom-part .row h2{
+    color: #FFF;
+    text-align: center;
+}
+#bottom-part .row a{
+    
+    color: #F0F0F0 !important;
+}
+
+#bottom-part .row .button{
+    padding: 13px 31px;
+    width: 142px;
+    border: 1px solid #fff;
+    text-align: center;
+    margin-top: 0px;
+}
+
+/* ============================
+    bottomcontact part ends
+=============================*/
+
+/* ============================
+    footer part start
+=============================*/
+footer{
+    padding: 150px 0;
+    background: #1F1F1F;
+}
+
+footer img{
+    margin-bottom: 18px;
+}
+footer ul{
+    list-style: none;
+    list-style: none;
+    padding-left: 0;
+
+}
+footer ul li{
+    color: #FFF;
+    margin-top: 15px;
+    
+
+}
+footer ul li i{
+    margin-right: 5px;
+
+}
+
+footer .icon i{
+    height: 30px;
+    width: 30px;
+    background: #F40404;
+    color: #FFF;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+footer h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+}
+/* ============================
+    footer part ends
+=============================*/
+/* ============================
+    copyright part starts
+=============================*/
+#copyright{
+    padding-top: 10px;
+    background: #343434
+}
+#copyright .row p{
+    color: rgb(112, 112, 112);
+    text-align: left;
+}
+/* ============================
+    copyright part ends
+=============================*/
